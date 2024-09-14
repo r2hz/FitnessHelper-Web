@@ -32,7 +32,7 @@ const VerifyAccount = () => {
   }, [userId, secret, handleVerifyAccount]);
 
   return (
-    <div className='.verfiy-account-box'>
+    <div className='verfiy-account-box'>
     <div className="verfiy-account-container">
       <h2 className="verfiy-account-title">Verify Account</h2>
       {loading ? <p>Verifying...</p> : <p>{message}</p>}

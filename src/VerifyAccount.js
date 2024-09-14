@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { account } from './appwriteClient';
-import './VerifyAccount.css'
+import './VerifyAccount.css';
 
 const VerifyAccount = () => {
   const [searchParams] = useSearchParams();

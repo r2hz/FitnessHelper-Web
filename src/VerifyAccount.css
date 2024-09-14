@@ -1,0 +1,29 @@
+.verfiy-account-box {
+    width: 100%;
+    max-width: 400px;  /* Limit the width of the box */
+    padding: 40px;  /* Increased padding for a more spacious look */
+    background-color: #fff;  /* White background for the box */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    margin-left:40%;
+    height: 300px;
+    margin-top: 100px;
+  }
+  
+
+.verfiy-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    margin-top: -540px;
+  }
+  
+  .verfiy-account-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
